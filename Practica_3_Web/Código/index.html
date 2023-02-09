@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <!--Viewport define el área visible de una página web para controlar las dimensiones de la página y el escalado.-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--Initial scale is 1 (no zoom)-->
+    <meta name="description" content="Práctica 3">
+    <meta name="author" content="Brais Campaña Martínez & Anxo Freire Balea & David Gayoso Salvado">
+    <title>COVID-19 Web</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/tab_icon.ico">
+</head>
+<body>
+    <div id = "login-form">
+        <header>
+            <nav>
+                <h1 id="titulo"><b>Login COVID-19</b></h1>
+            </nav>
+        </header>
+        <section id = "form-section">
+            <h2 id = "inicio-sesión"><b>Inicio de sesión</b></h2>
+            <img src="img/user_icon.png" alt="user_icon" id = "user" width="50" height="100">
+            <form id= "formpost" action="perfil.html" novalidate>
+                <label for="username-formpost" id="label-usuario">Usuario*</label>
+                <input type="text" id="username-formpost" aria-required="true" aria-invalid="false" 
+                aria-errormessage="span-usuario" aria-labelledby="label-usuario" tabindex= "0" required>
+                <span id = "span-usuario" role="alert"></span><br>
+                <br>
+                <label for="password-formpost" id ="label-password">Contraseña*</label><br>
+                <div class = "show">
+                    <div class = "container1">
+                        <input type="password" id="password-formpost" aria-invalid="false" aria-required="true" 
+                        aria-errormessage="span-password" aria-labelledby="label-password" tabindex= "0" required>
+                    </div>
+                    <div class = "container2">
+                        <input type = "button" id = "show-password" value ="Mostrar" tabindex= "0">
+                    </div>
+                </div>
+                <span id = "span-password" role="alert"></span>
+                <br><br>
+                <button type="submit" id = "submit-login" tabindex= "0" aria-label="Login">
+                    <img src="img/send.jpg" alt="send_image" id="send" width="15" height="20">
+                    Login
+                </button><br>
+                <p id = "login-error" role="alert"></p>
+            </form>
+            <hr>
+            <p id="crear-cuenta" role = "alert">Si no tienes una cuenta, crea una aquí</p>
+            <a href="registro.html" tabindex= "0" aria-label = "Registrarse">Regístrate</a>
+        </section>
+    </div>
+    <script src="server.js" type="module"></script>
+</body>
+</html>

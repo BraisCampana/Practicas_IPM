@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <!--Viewport define el área visible de una página web para controlar las dimensiones de la página y el escalado.-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--Initial scale is 1 (no zoom)-->
+    <meta name="description" content="Práctica 3">
+    <meta name="author" content="Brais Campaña Martínez & Anxo Freire Balea & David Gayoso Salvado">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="css/perfil.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/tab_icon.ico">
+</head>
+<body>
+    <div id = "perfil-page" aria-label = "Página de perfil">
+        <header>
+            <nav>
+                <div class="navbar">
+                    <h1 id="perfil-title">Perfil</h1>
+                    <section id = "logout">
+                        <span id ="perfil-nombre">Nombre</span>
+                        <span>&nbsp;&nbsp;&nbsp;</span>
+                        <span id ="perfil-apellido">Apellido</span>
+                        <span>&nbsp;&nbsp;&nbsp;</span>
+                        <button id = "logout-button" type= "button" tabindex="0" aria-label = "Logout">Logout</button>
+                    </section>
+                </div>
+            </nav>
+        </header>
+        <div class = "informacion">
+            <div class = "zona1-información">
+                <div class = "column">
+                    <section id ="perfil-detalles" class = "perfil">
+                        <h2>Detalles de usuario</h2>
+                        <p id = "perfil-email">Email</p>
+                        <p id = "perfil-telefono">Teléfono</p>
+                        <p id = "perfil-login">Login</p>
+                        <p id = "perfil-vacunado">Vacunado/a</p>
+                    </section>
+                </div>
+                <div class = "column2">
+                    <img id = "perfil-qr" src="" alt="código QR" aria-label="código QR">
+                </div>
+            </div>
+            <div class = "zona2-información">
+                <section id="perfil-eventos" class = "perfil">
+                    <h2>Eventos más destacados</h2>
+                    <div class = "column-eventos">
+                        <div class = "row-eventos">
+                            <label for="table-rows" id = "number-rows">Introduce el número de eventos que desea mostrar:</label>
+                            <input type="number" id="table-rows" tabindex="0" aria-labelledby="number-rows">
+                            <button type="button" id = "button-events" tabindex="0" aria-label="Filtrar">Filtrar</button>
+                        </div>
+                        <div class = "row-eventos">
+                            <table id = "table-eventos" class = "table" aria-label= "tabla de eventos del usuario">
+                                <caption>Eventos</caption>
+                                <tr class = "table">
+                                    <th class = "table" aria-label="Nombre evento">Nombre evento</th>
+                                    <th class = "table" aria-label = "Fecha">Fecha</th>
+                                    <th class = "table" aria-label = "Hora">Hora</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <p id ="perfil-errores" role = "alert"></p>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="VanillaQR.min.js"></script>
+    <script src="perfil.js" type="module"></script>
+</body>
+</html>

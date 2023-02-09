@@ -1,0 +1,229 @@
+/*MÓVIL*/
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/background-login.jpg');
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section span{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 0.9em;
+    color: red;
+    float: left;
+}
+
+p#registro-error{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    color: red;
+}
+ 
+div#registro-form{
+    width: 100%;
+}
+
+label{
+    float: left;
+    width: 1em;
+}
+
+h1, h2{
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+header {
+    background-color: #0F0F0F; /**/
+}
+
+header nav{
+    height: 5em;
+}
+
+header nav h1{
+    margin-top: 0;
+    padding: 1em 0 0 1em;
+    color: #FF7B49; /**/
+    font-size: 1.5em;
+    float: left;
+    display: inline;
+    text-align: center;
+}
+
+button{
+    font-size: 1.25em;
+    padding: 0.25em 0.5em; /*arriba-abajo // derecha-izquierda*/
+    background-color: white;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    border: 2px solid #008CBA;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+section#registro-form-section{
+    text-align: center;
+    border: 2px solid black;
+    margin: 4em 2em;
+    padding: 5% 10% 5% 10%;
+    background-color: gray;
+}
+
+section h2{
+    font-size: 2em;
+}
+
+.zone-registro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.zone1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.zone2{
+    width: 100%;
+}
+
+.zone3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.column{
+    flex: 100%;
+}
+
+input{
+    font-family: Georgia, sans-serif;
+    font-size: 1em;
+    background: #d3d3d3;
+    border: solid 2px black;
+    outline: none;
+    width: 100%;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+input::placeholder{
+    color: black;
+    font-size: 1.05em;
+    opacity: 0.8;
+}
+
+input:focus{
+    outline: 0;
+    color: black;
+    border-color: blue;
+}
+
+.show{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.container1{
+    flex: 85%;
+}
+
+#password-registro{
+    float: left;
+    width: 100%;
+}
+
+#show-password{
+    cursor: pointer;
+    background:#2196F3;
+    color: black;
+    text-align: center;
+    border-left: none; /* prevent double border*/
+    padding: 5px;
+    width: 100%;
+}
+
+.invalid{ /*cuando los campos son inválidos, se les pone un borde rojo*/
+    background-image: url('../img/not_valid.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.valid{
+    border-color: green;
+    background-image: url('../img/valid.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+section input[type=radio]{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    float: left;
+}
+
+#vacunado-si{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 1em;
+    color: black;
+}
+
+#vacunado-no{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 1em;
+    color: black;
+}
+
+#vacunado-registro-si{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 1em;
+    color: black;
+    float:left;
+}
+
+#vacunado-span{
+    color: black;
+    font-size: 1em;
+}
+
+#vacunado-registro-si, #vacunado-no, #vacunado-si, section input[type=radio]{
+    vertical-align: middle;
+}
+
+legend{
+    font-size: 1.15em;
+}
+
