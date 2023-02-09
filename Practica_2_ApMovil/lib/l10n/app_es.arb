@@ -1,0 +1,158 @@
+{
+    "paginaPrincipal": "Página Principal",
+    "@paginaPrincipal":{
+      "description": "Primera página de la app"
+    },
+    "noServidor": "No se puede conectar con el servidor",
+    "@noServidor":{
+        "description": "Problemas en la conexión con el servidor"
+    },
+    "addQr": "Añadir código QR",
+    "@addQr":{
+        "description": "Botón de añadir QR"
+    },
+    "gestionarListaEvento": "Gestionar Lista Evento",
+    "@gestionarListaEvento":{
+        "description": "Botón Gestionar Lista Evento"
+    },
+    "listaEvento": "Lista Evento",
+    "@listaEvento":{
+        "description": "Lista Evento"
+    },
+    "informacionEvento": "Información del evento",
+    "@informacionEvento":{
+        "description": "Información del evento"
+    },
+    "anotarES": "Anotar entrada/salida",
+    "@anotarES":{
+        "description": "Anotar entrada/salida"
+    },
+    "nombre": "Nombre",
+    "@nombre":{
+        "description": "Nombre anotación"
+    },
+    "apellido": "Apellido",
+    "@apellido":{
+        "description": "Apellido anotación"
+    },
+    "temperatura": "Temperatura",
+    "@temperatura":{
+        "description": "Temperatura anotación"
+    },
+    "fecha": "Fecha",
+    "@fecha":{
+        "description": "Fecha actual o la colocada por el usuario"
+    },
+    "hora": "Hora",
+    "@hora": {
+        "description": "Hora actual o la colocada por el usuario"
+    },
+    "cerrar": "Cerrar",
+    "@cerrar":{
+        "description": "Botón de cerrar pop up"
+    },
+    "infoUser": "Información del usuario",
+    "@infoUser":{
+        "description": "Información del usuario"
+    },
+    "nombreUser": "Nombre de usuario",
+    "@nombreUser":{
+        "description": "Nombre de usuario"
+    },
+    "telefono": "Teléfono",
+    "@telefono":{
+        "description": "Teléfono del usuario"
+    },
+    "email": "Email",
+    "@email":{
+        "description": "Email"
+    },
+    "vacunado": "Vacunado",
+    "@vacunado":{
+        "description": "Vacunado"
+    },
+    "cambiarFecha": "Cambiar Fecha",
+    "@cambiarFecha":{
+        "description": "Checkbox Cambiar Fecha"
+    },
+    "entryNombre": "Introduce un nombre solo con letras",
+    "@entryNombre": {
+        "description": "Validación nombre"
+    },
+    "entryApellido": "Introduce un apellido alfabético",
+    "@entryApellido":{
+        "description": "Validación apellido"
+    },
+    "entryTemperatura": "Introduce una temperatura válida",
+    "@entryTemperatura":{
+        "description": "Validación temperatura"
+    },
+    "userNotFound": "No se encontró a ningún usuario con ese nombre y apellido",
+    "@userNotFound":{
+        "description": "Usuario no encontrado"
+    },
+    "selectUser": "Seleccione un usuario",
+    "@selectUser": {
+        "description": "AppBar de la ventana de múltiples usuarios"
+    },
+    "anotarE": "Entrada anotada correctamente",
+    "@anotarE":{
+        "description": "Entrada anotada correctamente en base de datos"
+    },
+    "anotarS": "Salida anotada correctamente",
+    "@anotarS":{
+        "description": "Salida anotada correctamente en base de datos"
+    },
+    "tipo": "Tipo",
+    "@tipo":{
+        "description": "Tipo de acceso por parte de un usuario"
+    },
+    "visitasEvento": "Número de personas que visitaron la instalación",
+    "@visitasEvento":{
+        "description": "Número de personas que visitaron la instalación en total"
+    },
+    "actualEvento": "Número de personas actualmente en la instalación",
+    "@actualEvento":{
+        "description": "Número de personas que aún están en la instalación"
+    },
+    "nullDate": "Debes introducir ambas rfechas para poder filtrar",
+    "@nullDate":{
+        "description": "No introducción de una o ambas fechas de filtrado"
+    }, 
+    "badDate": "La fecha final es anterior a la inicial",
+    "@badDate":{
+        "description": "La fecha final introducida es anterior a la final"
+    },
+    "initialDate": "Fecha inicial",
+    "@inicialDate":{
+        "description": "Fecha inicial"
+    },
+    "finalDate": "Fecha final",
+    "@finalDate":{
+        "description": "Fecha final"
+    },
+    "initialHour": "Hora inicial",
+    "@initialHour":{
+        "description": "Hora inicial"
+    },
+    "finalHour": "Hora final",
+    "@finalHour":{
+        "description": "Hora final"
+    },
+    "noHora": "Por favor introduce una hora",
+    "@noHora": {
+        "description": "No hora"
+    },
+    "noFecha": "Por favor introduce una fecha",
+    "@noFecha": {
+        "description": "No fecha"
+    },
+    "noHoraFecha": "Por favor introduce una fecha y hora",
+    "@noHoraFecha": {
+        "description": "No fecha y hora"
+    },
+    "si": "Sí",
+    "@si":{
+        "description": "Sí"
+    }
+}
